@@ -6,5 +6,5 @@ too lazy to work with cloud so I make it as file-based like watdafuq.
 
 seriously u do portfolio with framework for what? design? stupid recognition?
 
-I don't understand what u did thanks.
+I don't understand how u get there for what u did.
 ```

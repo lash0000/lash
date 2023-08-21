@@ -17,9 +17,11 @@
   --max-width-lg: 800px;
   --lash-dark-text: #242424;
   --rounded-sm: 0.257em;
+  --rounded-md: 0.375em;
   --rounded-lg: 0.675em;
   --lash-light-stroke: #e6e6e6;
   --lash-dark-stroke: #2e2e2e;
+  --lash-high-light: #969696;
 }
 
 *,

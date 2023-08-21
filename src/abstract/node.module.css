@@ -5,6 +5,28 @@
     display: flex;
     align-items: flex-start;
     max-width: var(--max-width-lg);
-    /* flex-direction: column; */
+    flex-direction: column;
     margin: 0 auto;
+}
+.lash-art-label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.245em;
+    margin-bottom: 1em;
+}
+.f-col {
+    padding: 1em;
+}
+/* ARTICLE DESIGN STARTS HERE */
+.lash-articles {
+    width: 100%;
+    gap: 1em;
+}
+.my-art {
+    background: white;
+    display: inline-flex;
+    border: 1px solid var(--lash-light-stroke);
+    overflow: hidden;
+    border-radius: var(--rounded-md);
 }
