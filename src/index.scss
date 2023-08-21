@@ -7,8 +7,11 @@
  *  Don't get me wrong coz I want to use my libraries in 2021 era.
  * 
  */
+@import url("./globals/vars.scss");
+@import url("./globals/header.scss");
 
 *, *::before, *::after {
+    margin: 0;
     box-sizing: border-box;
 }
 html, body {
@@ -36,7 +39,6 @@ input, button, textarea, select {
     font: inherit;
 }
 p, h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 0.257em;
     overflow-wrap: break-word;
 }
 /* screen below 320px */
