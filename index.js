@@ -26,6 +26,9 @@ function convert(xmlDoc) {
     var headline = items[i].getElementsByTagName("headline")[0].innerHTML;
     var lashSm = items[i].getElementsByTagName("small-detail")[0].innerHTML;
     var lashImg = items[i].getElementsByTagName("small-img")[0].innerHTML;
+    var lash1stTag = items[i].getElementsByTagName("first-tag")[0].innerHTML;
+    var lash2ndTag = items[i].getElementsByTagName("second-tag")[0].innerHTML;
+    var minRead = items[i].getElementsByTagName("min-read")[0].innerHTML;
 
     htmlString += `
         <aside class="my-art">
@@ -36,9 +39,9 @@ function convert(xmlDoc) {
                     <figcaption>Posted about month ago.</figcaption>
                 </div>
                 <div class="art-tags">
-                    <div>12 min read</div>
-                    <div>Open-Source</div>
-                    <div>2nd tag</div>
+                    <div>${minRead}</div>
+                    <div>${lash1stTag}</div>
+                    <div>${lash2ndTag}</div>
                 </div>
             </figure>
             <figure class="l-col">

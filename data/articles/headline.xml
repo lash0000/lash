@@ -6,12 +6,18 @@
         <small-detail>
             Ye, I get it there's no money in open-source so what?
         </small-detail>
-        <test-detail>
-            Ye, I get it there's no money in open-source so what?
-        </test-detail>
+        <first-tag>
+            Open-Source
+        </first-tag>
         <small-img>
             <img src="./async/img/bb01fc0f8ae0caa60df6db73d7942464.jpg" />
         </small-img>
+        <second-tag>
+            Reaction
+        </second-tag>
+        <min-read>
+            10 min read
+        </min-read>
     </tables>
     <tables>
         <headline>
@@ -20,8 +26,17 @@
         <small-detail>
             Ye, I get it there's no money in open-source so what?
         </small-detail>
+        <first-tag>
+            Open-Source
+        </first-tag>
         <small-img>
             <img src="./async/img/bb01fc0f8ae0caa60df6db73d7942464.jpg" />
         </small-img>
+        <second-tag>
+            Reaction
+        </second-tag>
+        <min-read>
+            10 min read
+        </min-read>
     </tables>
 </article>
