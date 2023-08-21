@@ -12,6 +12,11 @@
 @import url("./abstract/vars.module.css");
 @import url("./variables/root.module.css");
 
+:root {
+  --max-width-lg: 960px;
+  --lash-dark-text: #242424;
+}
+
 *,
 *::before,
 *::after {
