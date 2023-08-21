@@ -9,7 +9,6 @@
  */
 
 @import url("./abstract/header.module.css");
-@import url("./variables/root.module.css");
 @import url("./abstract/Intro.module.css");
 @import url("./abstract/node.module.css");
 
