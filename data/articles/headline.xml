@@ -7,16 +7,18 @@
             Ye, I get it there's no money in open-source so what?
         </small-detail>
         <small-img>
-            <img src="./async/img/bb01fc0f8ae0caa60df6db73d7942464.jpg" alt="Image Description">
+            ./async/img/bb01fc0f8ae0caa60df6db73d7942464.jpg
         </small-img>
-        <timeslot>
-            10 min read
-        </timeslot>
-        <1st-tag>
-            Open-Source
-        </1st-tag>
-        <2nd-tag>
-            Foss
-        </2nd-tag>
+    </tables>
+    <tables>
+        <headline>
+            Dark Side of Open Source (such a reaction) part 2
+        </headline>
+        <small-detail>
+            Ye, I get it there's no money in open-source so what?
+        </small-detail>
+        <small-img>
+            ./async/img/bb01fc0f8ae0caa60df6db73d7942464.jpg
+        </small-img>
     </tables>
 </article>
