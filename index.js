@@ -1,3 +1,11 @@
+/**
+ *  2023 - DEV
+ *  Developer: Kenneth Obsequio
+ *  GitHub: https://github.com/eyelash128
+ *  License: GNU v3.0
+ * 
+ */
+
 async function fetchXML() {
   var [data1, data2] = await Promise.all([
     fetch("data/articles/headline.xml").then((response) => response.text()),
