@@ -10,6 +10,7 @@
 
 @import url("./abstract/header.module.css");
 @import url("./abstract/vars.module.css");
+@import url("./variables/root.module.css");
 
 *,
 *::before,

@@ -8,6 +8,7 @@
  * 
  */
 
-.lash-navbar {
+.lash-nav-contain {
     background: blue;
+    padding: 1.257em;
 }
