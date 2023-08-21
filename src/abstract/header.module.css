@@ -9,7 +9,7 @@
  */
 
 .lash-nav-contain {
-    background: blue;
+    /* border: 1px solid #000; */
     padding: 1.257em;
 }
 .lash-parent {
@@ -21,9 +21,14 @@
 }
 .lash-toggle {
     background: white;
-    padding: 0.5em 0.65em;
-    font-size: 1.275em;
+    border: 1px solid var(--lash-light-stroke);
+    padding: 0.45em 0.65em;
+    font-size: 1.45em;
     border-radius: var(--rounded-sm);
+    cursor: pointer;
+}
+.lash-toggle:hover {
+    background: var(--lash-light-stroke);
 }
 @supports not (display: flex) {
     .lash-parent {

@@ -1,0 +1,25 @@
+.lash-intro-container {
+    padding: 1.675em;
+}
+.lash-intro-parent {
+    display: flex;
+    align-items: flex-start;
+    max-width: var(--max-width-lg);
+    flex-direction: column;
+    margin: 0 auto;
+}
+.lash-intro {
+    /* background: red; */
+    width: 540px;
+    word-break: normal;
+}
+.lash-intro span {
+    font-size: 2.275em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.127em;
+}
+.lash-intro figcaption {
+    font-size: 1.257em;
+    margin-bottom: 0.25em;
+}
