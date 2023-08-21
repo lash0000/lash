@@ -3,7 +3,7 @@
  *  Developer: Kenneth Obsequio
  *  GitHub: https://github.com/eyelash128
  *  License: GNU v3.0
- * 
+ *
  */
 
 async function fetchXML() {
@@ -68,12 +68,3 @@ async function displayData() {
 }
 
 displayData();
-
-//Display nigga
-console.error(`
-    This bitch is an example of wannabe hacker😯
-    
-    https://github.com/eyelash128/lash
-
-    Here check it and get the motherfucking copy. 
-`);
