@@ -12,6 +12,7 @@
     /* background: red; */
     width: 540px;
     word-break: normal;
+    color: var(--lash-dark-text);
 }
 .lash-intro span {
     font-size: 2.275em;
@@ -22,4 +23,9 @@
 .lash-intro figcaption {
     font-size: 1.257em;
     margin-bottom: 0.25em;
+}
+.lash-alternatives a {
+    font-size: 2em;
+    color: var(--lash-dark-text);
+    letter-spacing: 0.02em;
 }
