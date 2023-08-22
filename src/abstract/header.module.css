@@ -35,3 +35,11 @@
         display: block;
     }
 }
+@media (min-width: 320px) and (max-width: 640px) {
+    .lash-toggle {
+        padding: 0.25em 0.45em;
+        font-size: 1.25em;
+        border-radius: var(--rounded-sm);
+        cursor: pointer;
+    }
+}
