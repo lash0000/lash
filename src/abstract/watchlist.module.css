@@ -1,0 +1,16 @@
+.lash-watchlist-container {
+    padding: 1em;
+}
+.lash-watchlist-parent {
+    margin: 0 auto;
+    max-width: var(--max-width-lg);
+}
+.lash-watchlist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lash-watchlist figure {
+    font-weight: bold;
+    font-size: 1.257em;
+}
