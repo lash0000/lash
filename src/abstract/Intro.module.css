@@ -28,3 +28,16 @@
     color: var(--lash-dark-text);
     letter-spacing: 0.02em;
 }
+
+@media (min-width: 320px) and (max-width: 640px) {
+    .lash-intro {
+        width: unset;
+    }
+    .lash-intro span {
+        font-size: 1.875em;
+    }
+    .lash-intro figcaption {
+        font-size: 0.957em;
+        margin-bottom: 0.25em;
+    }
+}
