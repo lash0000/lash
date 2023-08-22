@@ -2,6 +2,7 @@
     padding: 1em;
 }
 .lash-watchlist-parent {
+    color: var(--lash-dark-text);
     margin: 0 auto;
     max-width: var(--max-width-lg);
 }

@@ -1,0 +1,21 @@
+footer {
+    padding: 2em;
+}
+.lash-finale-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--max-width-lg);
+    margin: 0 auto;
+    font-size: 1.257em;
+}
+.lash-custom,
+.lash-nav a {
+    color: var(--lash-dark-text);
+}
+.lash-custom a {
+    color: var(--lash-high-light);
+}
+.lash-nav a:first-child {
+    margin-right: 0.657em;
+}

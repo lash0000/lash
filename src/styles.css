@@ -12,6 +12,7 @@
 @import url("./abstract/Intro.module.css");
 @import url("./abstract/node.module.css");
 @import url("./abstract/watchlist.module.css");
+@import url("./abstract/footer.module.css");
 
 :root {
   --max-width-lg: 920px;
