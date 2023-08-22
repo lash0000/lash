@@ -26,7 +26,10 @@ footer {
     .lash-finale-details {
         align-items: flex-start;
         flex-direction: column;
-        font-size: 0.857em;
+        font-size: 1.257em;
+    }
+    .lash-custom {
+        margin-bottom: 0.657em;
     }
     .lash-nav a:first-child {
         margin-right: 0.657em;
