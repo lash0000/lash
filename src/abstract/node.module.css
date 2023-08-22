@@ -1,119 +1,205 @@
 .lash-art-parent {
-    display: flex;
-    align-items: flex-start;
-    max-width: var(--max-width-lg);
-    flex-direction: column;
-    margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  max-width: var(--max-width-lg);
+  flex-direction: column;
+  margin: 0 auto;
 }
 .lash-art-container {
-    padding: 1.675em;
+  padding: 1.675em;
 }
 .lash-art-label {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    font-size: 1.245em;
-    margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.245em;
+  margin-bottom: 1em;
 }
 .f-col {
-    width: 640px;
+  width: 640px;
 }
 
 /* ARTICLE DESIGN STARTS HERE */
 
 .lash-articles {
-    width: 100%;
-    display: grid;
-    gap: 1.475em;
+  width: 100%;
+  display: grid;
+  gap: 1.475em;
 }
 .my-art {
-    background: white;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    border: 1px solid var(--lash-light-stroke);
-    overflow: hidden;
-    border-radius: var(--rounded-md);
+  background: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid var(--lash-light-stroke);
+  overflow: hidden;
+  border-radius: var(--rounded-md);
 }
 .l-col {
-    width: 400px;
+  width: 400px;
 }
 .l-col img {
-    width: 100%;
-    height: 170px;
-    object-fit: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
 }
 .art-tags {
-    display: flex;
-    width: 800px;
-    flex-wrap: wrap;
-    border-top: 1px solid var(--lash-light-stroke);
-    position: absolute;
-    padding-left: 1.257em;
-    padding-top: 0.975em;
+  display: flex;
+  width: 800px;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--lash-light-stroke);
+  position: absolute;
+  padding-left: 1.257em;
+  padding-top: 0.975em;
 }
 .art-tags div {
-    margin-right: 0.657em;
+  margin-right: 0.657em;
 }
 .art-header {
-    padding: 1.257em;
+  padding: 1.257em;
 }
 .art-header a {
-    color: var(--lash-dark-text);
+  color: var(--lash-dark-text);
 }
 .art-header div:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .art-header span,
 .art-header figcaption {
-    color: var(--lash-high-light);
+  color: var(--lash-high-light);
 }
 .art-header div,
 .art-header span {
-    font-size: 1.120em;
+  font-size: 1.12em;
 }
 .art-tags div,
 .art-header figcaption {
-    font-size: 0.857em;
+  font-size: 0.857em;
 }
 
 @supports not (display: grid) {
-    .lash-articles {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .my-art {
-        width: 100%;
-        margin-bottom: 1.475em;
-    }
+  .lash-articles {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .my-art {
+    width: 100%;
+    margin-bottom: 1.475em;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 460px) {
-    .my-art {
-        background: white;
-        justify-content: flex-start;
-        flex-direction: column;
-    }
-    .art-tags {
-        display: flex;
-        width: unset;
-        flex-wrap: wrap;
-        border-top: 1px solid var(--lash-light-stroke);
-        position: unset;
-        padding-left: 1.257em;
-        padding-top: 0.975em;
-        padding-bottom: 0.975em;
-    }
-    .l-col {
-        width: 100%;
-        order: 1;
-    }
-    .l-col img {
-        clip-path: unset;
-    }
-    .f-col {
-        width: 100%;
-        order: 2;
-    }
+  .my-art {
+    background: white;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .art-tags {
+    display: flex;
+    width: unset;
+    flex-wrap: wrap;
+    border-top: 1px solid var(--lash-light-stroke);
+    position: unset;
+    padding-left: 1.257em;
+    padding-top: 0.975em;
+    padding-bottom: 0.975em;
+  }
+  .l-col {
+    width: 100%;
+    order: 1;
+  }
+  .l-col img {
+    clip-path: unset;
+  }
+  .f-col {
+    width: 100%;
+    order: 2;
+  }
+  .art-header div,
+  .art-header span {
+    font-size: 0.867em;
+  }
+  .art-tags div,
+  .art-header figcaption {
+    font-size: 0.657em;
+  }
+}
+@media (min-width: 461px) and (max-width: 640px) {
+  .my-art {
+    background: white;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .art-tags {
+    display: flex;
+    width: unset;
+    flex-wrap: wrap;
+    border-top: 1px solid var(--lash-light-stroke);
+    position: unset;
+    padding-left: 1.257em;
+    padding-top: 0.975em;
+    padding-bottom: 0.975em;
+  }
+  .l-col {
+    width: 100%;
+    order: 1;
+  }
+  .l-col img {
+    clip-path: unset;
+  }
+  .f-col {
+    width: 100%;
+    order: 2;
+  }
+  .art-header div,
+  .art-header span {
+    font-size: 1em;
+  }
+  .art-tags div,
+  .art-header figcaption {
+    font-size: 0.757em;
+  }
+}
+@media (min-width: 641px) and (max-width: 711px) {
+  .art-header div,
+  .art-header span {
+    font-size: 1em;
+  }
+  .art-tags div,
+  .art-header figcaption {
+    font-size: 0.757em;
+  }
+  .art-tags {
+    width: 500px;
+  }
+  .f-col {
+    width: 100%;
+  }
+  .l-col img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+}
+@media (min-width: 712px) and (max-width: 800px) {
+  .art-header div,
+  .art-header span {
+    font-size: 1em;
+  }
+  .art-tags div,
+  .art-header figcaption {
+    font-size: 0.757em;
+  }
+  .art-tags {
+    width: 500px;
+  }
+  .f-col {
+    width: 100%;
+  }
+  .l-col img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
 }
