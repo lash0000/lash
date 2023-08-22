@@ -87,6 +87,7 @@ async function displayData() {
     lashCountEl.textContent = `${lashCount} Articles ✏️`;
   }
 
+  console.log("By the essence and power of GNU License.");
   console.log("Here's the source code btw.");
   console.log("https://github.com/eyelash128/lash");
 }
