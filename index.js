@@ -37,7 +37,7 @@ function convert(xmlDoc) {
         <aside class="my-art">
             <figure class="f-col">
                 <div class="art-header">
-                    <div>${headline}</div>
+                    <div><a href="">${headline}</a></div>
                     <span>${lashSm}</span>
                     <figcaption>Posted about month ago.</figcaption>
                 </div>

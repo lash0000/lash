@@ -28,4 +28,8 @@
 .watchlist-pics img {
     height: 300px;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out; 
+}
+.watchlist-pics img:hover {
+    transform: scale(1.25);
 }

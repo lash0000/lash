@@ -56,6 +56,12 @@
 .art-header {
     padding: 1.257em;
 }
+.art-header a {
+    color: var(--lash-dark-text);
+}
+.art-header div:hover {
+    text-decoration: underline;
+}
 .art-header span,
 .art-header figcaption {
     color: var(--lash-high-light);
