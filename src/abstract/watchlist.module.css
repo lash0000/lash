@@ -9,8 +9,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 1em;
 }
 .lash-watchlist figure {
     font-weight: bold;
     font-size: 1.257em;
+}
+.watchlist-pics {
+    display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1em;
+}
+.watchlist-pics picture {
+    border-radius: var(--rounded-md);
+    overflow: hidden;
+}
+.watchlist-pics img {
+    height: 300px;
+    object-fit: cover;
 }
