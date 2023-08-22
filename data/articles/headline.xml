@@ -19,24 +19,4 @@
             10 min read
         </min-read>
     </tables>
-    <tables>
-        <headline>
-            Dark Side of Open Source (such a reaction) part 2
-        </headline>
-        <small-detail>
-            Ye, I get it there's no money in open-source so what?
-        </small-detail>
-        <first-tag>
-            Open-Source
-        </first-tag>
-        <small-img>
-            <img src="./async/img/bb01fc0f8ae0caa60df6db73d7942464.jpg" />
-        </small-img>
-        <second-tag>
-            Reaction
-        </second-tag>
-        <min-read>
-            10 min read
-        </min-read>
-    </tables>
 </article>

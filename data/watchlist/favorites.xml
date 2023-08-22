@@ -1,26 +1,74 @@
 <watchlist>
     <anime>
         <anime-link>
-            https://www.google.com
+            https://aniwave.to/watch/lycoris-recoil.w117o/ep-1
         </anime-link>
         <anime-picture>
-            <img src="./async/img/lycoris_recoil.jpg" alt="Lycoris Recoil" />
+            <img src="./async/prod/lycoris_recoil.webp" alt="Lycoris Recoil" />
         </anime-picture>
     </anime>
     <anime>
         <anime-link>
-            https://www.google.com
+            https://aniwave.to/watch/classroom-of-the-elite.07o9/ep-1
         </anime-link>
         <anime-picture>
-            <img src="./async/img/cote.jpg" alt="Classroom of the Elite" />
+            <img src="./async/prod/cote.webp" alt="Classroom of the Elite" />
         </anime-picture>
     </anime>
     <anime>
         <anime-link>
-            https://www.google.com
+            https://www.bilibili.tv/en/play/1048837
         </anime-link>
         <anime-picture>
-            <img src="https://cdn.myanimelist.net/images/anime/5/87048.jpg" alt="Kimi no yawa." />
+            <img src="./async/prod/spyxfamily.webp" alt="Spy x Family" />
+        </anime-picture>
+    </anime>
+    <anime>
+        <anime-link>
+            https://aniwave.to/watch/demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc.3r7p6/ep-1
+        </anime-link>
+        <anime-picture>
+            <img src="./async/prod/kimetsu-swordsmith.webp" alt="Kimetsu no yaiba" />
+        </anime-picture>
+    </anime>
+    <anime>
+        <anime-link>
+            https://aniwave.to/watch/my-dress-up-darling.7jjw6/ep-1
+        </anime-link>
+        <anime-picture>
+            <img src="./async/prod/dressup_darling.webp" alt="My Dress-Up Darling" />
+        </anime-picture>
+    </anime>
+    <anime>
+        <anime-link>
+            https://aniwave.to/watch/akame-ga-kill.908/ep-1
+        </anime-link>
+        <anime-picture>
+            <img src="./async/prod/akame.webp" alt="Akame ga kill" />
+        </anime-picture>
+    </anime>
+    <anime>
+        <anime-link>
+            https://aniwave.to/watch/kakegurui.79vj/ep-1
+        </anime-link>
+        <anime-picture>
+            <img src="./async/prod/kakegurui.webp" alt="Kakegurui" />
+        </anime-picture>
+    </anime>
+    <anime>
+        <anime-link>
+            https://aniwave.to/watch/sword-art-online.5y9/ep-1
+        </anime-link>
+        <anime-picture>
+            <img src="./async/prod/sao.webp" alt="SAO-S01" />
+        </anime-picture>
+    </anime>
+    <anime>
+        <anime-link>
+            https://aniwave.to/watch/if-its-for-my-daughter-id-even-defeat-a-demon-lord.orm4/ep-1
+        </anime-link>
+        <anime-picture>
+            <img src="./async/prod/demonlord.webp" alt="SAO-S01" />
         </anime-picture>
     </anime>
 </watchlist>
