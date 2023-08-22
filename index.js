@@ -9,6 +9,7 @@
 async function fetchXML() {
   var [data1, data2] = await Promise.all([
     fetch("data/articles/headline.xml").then((response) => response.text()),
+    fetch("data/watchlist/favorites.xml").then((response) => response.text()),
   ]);
 
   var parser = new DOMParser();
@@ -21,6 +22,7 @@ async function fetchXML() {
 function convert(xmlDoc) {
   let htmlString = "";
   var items = xmlDoc.getElementsByTagName("tables");
+  var watchlist = xmlDoc.getElementsByTagName("anime");
   var headlineLimit = 5; //limit for homepage
 
   for (let i = 0; i < items.length && i < headlineLimit; i++) {
@@ -54,21 +56,39 @@ function convert(xmlDoc) {
       `;
   }
 
+  for (let n = 0; n < watchlist.length; n++) {
+    var watchlistImg = watchlist[n].getElementsByTagName("anime-picture")[0].innerHTML;
+    var watchlistLink = watchlist[n].getElementsByTagName("anime-link")[0].innerHTML;
+
+    htmlString += `
+      <a href="${watchlistLink}" target="_blank" rel="noopener noreferrer">
+        <picture>
+          ${watchlistImg}
+        </picture>
+      </a>
+    `;
+  }
+
   return htmlString;
 }
 
 async function displayData() {
-  const [xmlDoc1] = await fetchXML();
+  const [xmlDoc1, xmlDoc2] = await fetchXML();
 
-  if (xmlDoc1) {
+  if (xmlDoc1 && xmlDoc2) {
     const htmlString1 = convert(xmlDoc1);
+    const htmlString2 = convert(xmlDoc2);
     document.getElementById("lash-art").innerHTML = htmlString1;
+    document.getElementById("watchlist").innerHTML = htmlString2;
 
     //article count each
     var lashCount = xmlDoc1.getElementsByTagName("tables").length;
     var lashCountEl = document.getElementById("lash-count");
     lashCountEl.textContent = `${lashCount} Articles ✏️`;
   }
+
+  console.log("Here's the source code I forgot btw.");
+  console.log("https://github.com/eyelash128/lash");
 }
 
 displayData();

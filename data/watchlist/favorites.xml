@@ -1,26 +1,26 @@
 <watchlist>
     <anime>
         <anime-link>
-            https://myanimelist.net/anime/32281/Kimi_no_Na_wa
+            https://www.google.com
         </anime-link>
-        <picture>
-            <img src="https://cdn.myanimelist.net/images/anime/5/87048.jpg" alt="Kimi no Na wa." />
-        </picture>
+        <anime-picture>
+            <img src="./async/img/lycoris_recoil.jpg" alt="Lycoris Recoil" />
+        </anime-picture>
     </anime>
     <anime>
         <anime-link>
-            https://myanimelist.net/anime/32281/Kimi_no_Na_wa
+            https://www.google.com
         </anime-link>
-        <picture>
-            <img src="https://cdn.myanimelist.net/images/anime/5/87048.jpg" alt="Kimi no Na wa." />
-        </picture>
+        <anime-picture>
+            <img src="./async/img/cote.jpg" alt="Classroom of the Elite" />
+        </anime-picture>
     </anime>
     <anime>
         <anime-link>
-            https://myanimelist.net/anime/32281/Kimi_no_Na_wa
+            https://www.google.com
         </anime-link>
-        <picture>
+        <anime-picture>
             <img src="https://cdn.myanimelist.net/images/anime/5/87048.jpg" alt="Kimi no Na wa." />
-        </picture>
+        </anime-picture>
     </anime>
 </watchlist>
