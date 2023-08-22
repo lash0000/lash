@@ -21,8 +21,9 @@ async function fetchXML() {
 function convert(xmlDoc) {
   let htmlString = "";
   var items = xmlDoc.getElementsByTagName("tables");
+  var headlineLimit = 5; //limit for homepage
 
-  for (let i = 0; i < items.length; i++) {
+  for (let i = 0; i < items.length && i < headlineLimit; i++) {
     var headline = items[i].getElementsByTagName("headline")[0].innerHTML;
     var lashSm = items[i].getElementsByTagName("small-detail")[0].innerHTML;
     var lashImg = items[i].getElementsByTagName("small-img")[0].innerHTML;
