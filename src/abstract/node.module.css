@@ -5,6 +5,9 @@
     flex-direction: column;
     margin: 0 auto;
 }
+.lash-art-container {
+    padding: 1.675em;
+}
 .lash-art-label {
     display: flex;
     justify-content: space-between;
@@ -83,5 +86,34 @@
     .my-art {
         width: 100%;
         margin-bottom: 1.475em;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 460px) {
+    .my-art {
+        background: white;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .art-tags {
+        display: flex;
+        width: unset;
+        flex-wrap: wrap;
+        border-top: 1px solid var(--lash-light-stroke);
+        position: unset;
+        padding-left: 1.257em;
+        padding-top: 0.975em;
+        padding-bottom: 0.975em;
+    }
+    .l-col {
+        width: 100%;
+        order: 1;
+    }
+    .l-col img {
+        clip-path: unset;
+    }
+    .f-col {
+        width: 100%;
+        order: 2;
     }
 }
