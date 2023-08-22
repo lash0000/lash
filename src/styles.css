@@ -14,7 +14,7 @@
 @import url("./abstract/watchlist.module.css");
 
 :root {
-  --max-width-lg: 800px;
+  --max-width-lg: 920px;
   --lash-dark-text: #242424;
   --rounded-sm: 0.257em;
   --rounded-md: 0.375em;

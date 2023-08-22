@@ -9,8 +9,7 @@
     margin: 0 auto;
 }
 .lash-intro {
-    /* background: red; */
-    width: 540px;
+    width: 620px;
     word-break: normal;
     color: var(--lash-dark-text);
 }
