@@ -8,3 +8,32 @@
     margin: 0 auto;
     max-width: var(--max-width-md);
 }
+.lash-article-body figure {
+    text-transform: uppercase;
+    font-size: 1.057em;
+}
+.lash-article-body header {
+    font-size: 2.457em;
+    font-weight: bold;
+}
+.lash-article-body figcaption {
+    font-size: 1.257em;
+    word-break: normal;
+}
+/* space-y-1 */
+.lash-article-body figcaption,
+.lash-article-body picture {
+    margin-bottom: 0.457em;
+}
+.lash-article-body picture,
+.lash-article-body video {
+    border-radius: var(--rounded-lg);
+    border: 1px solid var(--lash-light-stroke);
+    overflow: hidden;
+}
+.lash-article-body img,
+.lash-article-body video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
