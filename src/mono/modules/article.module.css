@@ -22,8 +22,9 @@
 }
 /* space-y-1 */
 .lash-article-body figcaption,
-.lash-article-body picture {
-    margin-bottom: 0.457em;
+.lash-article-body picture,
+.lash-article-body video {
+    margin-bottom: 0.657em;
 }
 .lash-article-body picture,
 .lash-article-body video {
