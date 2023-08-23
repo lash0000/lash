@@ -1,0 +1,10 @@
+.article-container {
+    padding: 1em;
+}
+.article-parent {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: var(--max-width-md);
+}

@@ -8,3 +8,4 @@
 
 @import url("../abstract/reset.module.css");
 @import url("../abstract/header.module.css");
+@import url("./modules/article.module.css");
