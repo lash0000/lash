@@ -16,6 +16,7 @@
 
 :root {
   --max-width-lg: 920px;
+  --max-width-md: 820px;
   --lash-dark-text: #242424;
   --rounded-sm: 0.257em;
   --rounded-md: 0.375em;

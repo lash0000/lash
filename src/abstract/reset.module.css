@@ -1,0 +1,87 @@
+/**
+ *  2023 - DEV
+ *  Developer: Kenneth Obsequio
+ *  GitHub: https://github.com/eyelash128
+ *  License: GNU v3.0
+ * 
+ *  Don't get me wrong coz I'm meta.
+ * 
+ */
+
+:root {
+    --max-width-lg: 920px;
+    --max-width-md: 820px;
+    --lash-dark-text: #242424;
+    --rounded-sm: 0.257em;
+    --rounded-md: 0.375em;
+    --rounded-lg: 0.675em;
+    --lash-light-stroke: #e6e6e6;
+    --lash-dark-stroke: #2e2e2e;
+    --lash-high-light: #969696;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    isolation: isolate;
+    height: 100%;
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Outfit", sans-serif;
+    /* transition: all 0.3ms ease-in; */
+  }
+  
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  a,
+  button {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+  
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0.257em;
+    overflow-wrap: break-word;
+  }
+  
+  /* screen below 320px */
+  @media (max-width: 319px) and (min-width: 0px) {
+    body {
+      display: none;
+      visibility: hidden;
+    }
+  }
