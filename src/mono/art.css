@@ -7,4 +7,4 @@
  */
 
 @import url("../abstract/reset.module.css");
-@import url("./modules/nav.module.css");
+@import url("../abstract/header.module.css");
