@@ -32,9 +32,29 @@
     border: 1px solid var(--lash-light-stroke);
     overflow: hidden;
 }
+.media-info {
+    display: block;
+    text-align: center;
+    margin-top: 0.457em;
+    color: var(--lash-high-light);
+}
 .lash-article-body img,
 .lash-article-body video {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+@media (min-width: 320px) and (max-width: 640px) {
+    .article-container {
+        padding: 1.657em;
+    }
+    .lash-article-body figure {
+        font-size: 0.857em;
+    }
+    .lash-article-body header {
+        font-size: 1.675em;
+    }
+    .lash-article-body figcaption {
+        font-size: 1em;
+    }
 }
