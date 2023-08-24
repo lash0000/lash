@@ -1,0 +1,17 @@
+.after-reading {
+    background: var(--lash-end-reading);
+    margin: 0 auto;
+    max-width: var(--max-width-md);
+    padding: 2em;
+    border-radius: var(--rounded-md);
+    border: 1px solid var(--lash-light-stroke);
+    margin-bottom: 0.675em;
+}
+.after-reading figure {
+    font-size: 1.657em;
+    font-weight: bold;
+    margin-bottom: 0.475em;
+}
+.after-reading figcaption {
+    font-size: 1.257em;
+}

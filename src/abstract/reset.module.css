@@ -32,6 +32,7 @@ html,
 body {
   isolation: isolate;
   height: 100%;
+  color: var(--lash-dark-text);
 }
 
 body {
