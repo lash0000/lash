@@ -1,12 +1,12 @@
 .article-container {
     padding: 1em;
+    margin: 0 auto;
+    max-width: var(--max-width-md);
 }
 .article-parent {
     display: flex;
     align-items: left;
     flex-direction: column;
-    margin: 0 auto;
-    max-width: var(--max-width-md);
 }
 .lash-article-body figure {
     text-transform: uppercase;
