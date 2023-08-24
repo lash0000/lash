@@ -15,3 +15,11 @@
 .after-reading figcaption {
     font-size: 1.257em;
 }
+@media (min-width: 320px) and (max-width: 640px) {
+    .after-reading figure {
+        font-size: 1.657em;
+    }
+    .after-reading figcaption {
+        font-size: 1em;
+    }
+}
