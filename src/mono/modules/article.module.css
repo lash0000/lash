@@ -23,7 +23,7 @@
 /* space-y-1 */
 .lash-article-body figcaption,
 .lash-article-body picture,
-.lash-article-body video {
+.lash-article-body aside {
     margin-bottom: 0.657em;
 }
 .lash-article-body picture img,

@@ -37,7 +37,7 @@ function convert(xmlDoc) {
         <aside class="my-art">
             <figure class="f-col">
                 <div class="art-header">
-                    <div><a href="">${headline}</a></div>
+                    <div><a href="/@eyelash/story">${headline}</a></div>
                     <span>${lashSm}</span>
                     <figcaption>Posted about month ago.</figcaption>
                 </div>
@@ -76,8 +76,8 @@ async function displayData() {
   const [xmlDoc1, xmlDoc2] = await fetchXML();
 
   if (xmlDoc1 && xmlDoc2) {
-    const htmlString1 = convert(xmlDoc1);
-    const htmlString2 = convert(xmlDoc2);
+    const htmlString1 = convert(xmlDoc1),
+          htmlString2 = convert(xmlDoc2);
     document.getElementById("lash-art").innerHTML = htmlString1;
     document.getElementById("watchlist").innerHTML = htmlString2;
 
