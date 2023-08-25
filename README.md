@@ -1,5 +1,7 @@
+![structure_nigga](/async/prod/structure.webp)
+
 ```
-file-based XML?
+file-based html and XML?
 
 have my javascript fatigue so it's kind of boring.
 too lazy to work with cloud so I make it as file-based like dafuq.
