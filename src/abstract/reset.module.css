@@ -24,6 +24,9 @@
 .dark-mode .my-art {
   border: 1px solid var(--lash-dark-stroke);
 }
+
+/* article page */
+
 .dark-mode .art-tags {
   border-top: 1px solid var(--lash-dark-stroke);
 }
@@ -43,8 +46,6 @@
   border: 1px solid var(--lash-dark-stroke);
 }
 
-/* article page */
-
 
 /** end of color scheme **/
 
@@ -62,7 +63,7 @@
   --lash-high-light: #969696;
   --lash-high-dark: #7e73a9;
   --lash-end-reading: #fbf7f7;
-  --lash-end-reading-dark: #232323;
+  --lash-end-reading-dark: #1D1D1D;
 }
 
 *,
