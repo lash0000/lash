@@ -9,9 +9,6 @@ footer {
     margin: 0 auto;
     font-size: 1.257em;
 }
-.lash-nav a {
-    color: var(--lash-dark-text); /* add dark mode */
-}
 .lash-custom a {
     color: var(--lash-high-light);
 }

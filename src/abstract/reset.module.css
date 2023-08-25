@@ -12,6 +12,9 @@
   background-color: var(--lash-dark-bg);
   color: var(--lash-light-text);
 }
+.dark-mode a {
+  color: var(--lash-light-text);
+}
 
 :root {
   --max-width-lg: 920px;
@@ -47,6 +50,10 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: "Outfit", sans-serif;
   /* transition: all 0.3ms ease-in; */
+}
+
+body a {
+  color: var(--lash-dark-text);
 }
 
 ul {
