@@ -87,7 +87,6 @@
 
 @media (min-width: 320px) and (max-width: 460px) {
   .my-art {
-    background: white;
     justify-content: flex-start;
     flex-direction: column;
   }
@@ -123,7 +122,6 @@
 }
 @media (min-width: 461px) and (max-width: 640px) {
   .my-art {
-    background: white;
     justify-content: flex-start;
     flex-direction: column;
   }
