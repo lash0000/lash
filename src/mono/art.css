@@ -19,6 +19,7 @@
     border-radius: 100%;
     font-size: 1.457em;
     cursor: pointer;
+    display: none; /* override if not working */
 }
 @media (min-width: 320px) and (max-width: 640px) {
     .scrollbtn {
