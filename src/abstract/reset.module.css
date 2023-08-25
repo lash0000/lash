@@ -12,12 +12,15 @@
   --max-width-lg: 920px;
   --max-width-md: 760px;
   --lash-dark-text: #242424;
+  --lash-light-text: #ffffff;
+  --lash-dark-bg: #1a1a1a;
   --rounded-sm: 0.257em;
   --rounded-md: 0.375em;
   --rounded-lg: 0.675em;
   --lash-light-stroke: #e6e6e6;
   --lash-dark-stroke: #2e2e2e;
   --lash-high-light: #969696;
+  --lash-high-dark: #7e73a9;
   --lash-end-reading: #fbf7f7;
 }
 
@@ -30,6 +33,7 @@
 
 html,
 body {
+  background-color: var(--lash-light-text);
   isolation: isolate;
   height: 100%;
   color: var(--lash-dark-text);

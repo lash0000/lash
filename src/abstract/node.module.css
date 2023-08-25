@@ -27,7 +27,6 @@
   gap: 1.475em;
 }
 .my-art {
-  background: white;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
