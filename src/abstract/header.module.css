@@ -27,9 +27,9 @@
     border-radius: var(--rounded-sm);
     cursor: pointer;
 }
-.lash-toggle:hover {
+/* .lash-toggle:hover {
     background: var(--lash-light-stroke);
-}
+} */
 @supports not (display: flex) {
     .lash-parent {
         display: block;

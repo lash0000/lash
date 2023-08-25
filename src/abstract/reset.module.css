@@ -9,7 +9,7 @@
  */
 
 .dark-mode {
-  background-color: var(--lash-dark-text);
+  background-color: var(--lash-dark-bg);
   color: var(--lash-light-text);
 }
 
