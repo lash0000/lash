@@ -28,6 +28,7 @@ function convert(xmlDoc) {
 
   for (let i = 0; i < items.length && i < headlineLimit; i++) {
     var headline = items[i].getElementsByTagName("headline")[0].innerHTML;
+    var articleLink = items[i].getElementsByTagName("art-link")[0].innerHTML;
     var lashSm = items[i].getElementsByTagName("small-detail")[0].innerHTML;
     var lashImg = items[i].getElementsByTagName("small-img")[0].innerHTML;
     var lash1stTag = items[i].getElementsByTagName("first-tag")[0].innerHTML;
@@ -38,7 +39,7 @@ function convert(xmlDoc) {
         <aside class="my-art">
             <figure class="f-col">
                 <div class="art-header">
-                    <div><a href="/@eyelash/story">${headline}</a></div>
+                    <div><a href="${articleLink}">${headline}</a></div>
                     <span>${lashSm}</span>
                     <figcaption>Posted about month ago.</figcaption>
                 </div>
