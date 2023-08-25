@@ -8,6 +8,11 @@
  * 
  */
 
+.dark-mode {
+  background-color: var(--lash-dark-text);
+  color: var(--lash-light-text);
+}
+
 :root {
   --max-width-lg: 920px;
   --max-width-md: 760px;
@@ -33,11 +38,8 @@
 
 html,
 body {
-  background-color: var(--lash-light-text);
   isolation: isolate;
   height: 100%;
-  color: var(--lash-dark-text);
-  transition: background-color 0.5s, color 0.5s;
 }
 
 body {
