@@ -11,3 +11,22 @@
 @import url("./modules/article.module.css");
 @import url("../abstract/node.module.css");
 @import url("./modules/end.module.css");
+
+.scrollbtn {
+    position: fixed;
+    bottom: 2em;
+    right: 20%;
+    border-radius: 100%;
+    font-size: 1.457em;
+    cursor: pointer;
+}
+@media (min-width: 320px) and (max-width: 640px) {
+    .scrollbtn {
+        position: fixed;
+        bottom: 1em;
+        right: 5%;
+        border-radius: 100%;
+        font-size: 1.457em;
+        cursor: pointer;
+    }
+}
