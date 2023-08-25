@@ -59,7 +59,7 @@
   padding: 1.257em;
 }
 .art-header a {
-  color: var(--lash-dark-text);
+  color: var(--lash-dark-text); /* add dark mode */
 }
 .art-header div:hover {
   text-decoration: underline;

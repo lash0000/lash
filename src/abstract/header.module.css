@@ -20,7 +20,7 @@
     max-width: var(--max-width-lg);
 }
 .lash-toggle {
-    background: white;
+    /* background: white; */
     border: 1px solid var(--lash-light-stroke);
     padding: 0.45em 0.65em;
     font-size: 1.45em;
