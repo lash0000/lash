@@ -8,6 +8,11 @@
  * 
  */
 
+/**
+ *  prefers-color-scheme is totally GOAT🐐
+ */
+
+/* homepage */
 .dark-mode {
   background-color: var(--lash-dark-bg);
   color: var(--lash-light-text);
@@ -15,6 +20,33 @@
 .dark-mode a {
   color: var(--lash-light-text);
 }
+.dark-mode .lash-toggle,
+.dark-mode .my-art {
+  border: 1px solid var(--lash-dark-stroke);
+}
+.dark-mode .art-tags {
+  border-top: 1px solid var(--lash-dark-stroke);
+}
+.dark-mode .art-header span,
+.dark-mode .art-header figcaption {
+  color: var(--lash-high-dark);
+}
+.dark-mode .lash-article-body picture img,
+.dark-mode .lash-article-body video {
+  border: 1px solid var(--lash-dark-stroke);
+}
+.dark-mode .media-info {
+  color: var(--lash-high-dark);
+}
+.dark-mode .after-reading {
+  background: var(--lash-end-reading-dark);
+  border: 1px solid var(--lash-dark-stroke);
+}
+
+/* article page */
+
+
+/** end of color scheme **/
 
 :root {
   --max-width-lg: 920px;
@@ -30,6 +62,7 @@
   --lash-high-light: #969696;
   --lash-high-dark: #7e73a9;
   --lash-end-reading: #fbf7f7;
+  --lash-end-reading-dark: #232323;
 }
 
 *,
