@@ -44,7 +44,6 @@
     />
     <link rel="stylesheet" type="text/css" href="../../src/mono/art.css" />
     <script src="../../_poly.js" type="module"></script>
-    <script src="../separate.js" type="module"></script>
     <title>Dark Side of Open-Source (reaction)</title>
   </head>
   <body>
@@ -78,8 +77,9 @@
           </figcaption>
           <picture>
             <img
-              src="https://www.animerankers.com/wp-content/uploads/2021/12/maxresdefault-1024x576.jpg"
+              src="https://www.animerankers.com/wp-content/uploads/2021/12/maxresdefault-1024x576.jpgs"
               alt=""
+              onerror="this.src='https://i.ibb.co/dMCg2Jp/lash-media.webp'"
             />
             <span class="media-info">text me</span>
           </picture>
@@ -98,6 +98,11 @@
               <source
                 src="http://techslides.com/demos/sample-videos/small.ogv"
                 type="video/ogg"
+              />
+              <!-- fallback sign to handle those nulls -->
+              <source
+                src="https://i.ibb.co/dMCg2Jp/lash-media.webp"
+                type="video/webm"
               />
             </video>
             <span class="media-info">text me</span>
@@ -119,5 +124,6 @@
         </figcaption>
       </footer>
     </main>
+    <script src="../separate.js"></script>
   </body>
 </html>
