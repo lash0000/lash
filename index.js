@@ -7,7 +7,7 @@
  */
 
 // for universal option
-async function fetchXML() {
+export async function fetchXML() {
   var [data1, data2] = await Promise.all([
     fetch("data/articles/headline.xml").then((response) => response.text()),
     fetch("data/watchlist/favorites.xml").then((response) => response.text()),
