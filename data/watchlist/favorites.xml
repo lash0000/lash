@@ -71,4 +71,12 @@
             <img src="./async/prod/demonlord.webp" alt="If it's for my daughter i'd even defeat a demon lord" />
         </anime-picture>
     </anime>
+    <anime>
+        <anime-link>
+            https://aniwave.to/watch/miss-kobayashis-dragon-maid.0y8k/ep-1
+        </anime-link>
+        <anime-picture>
+            <img src="./async/prod/kobayashii.webp" alt="Kobayashi-san Chi no Maid Dragon" />
+        </anime-picture>
+    </anime>
 </watchlist>
