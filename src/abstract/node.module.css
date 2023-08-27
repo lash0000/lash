@@ -73,7 +73,16 @@
 .art-header figcaption {
   font-size: 0.857em;
 }
-
+/* ART SINGLE PAGE */
+.single-art-parent {
+  margin: 0 auto;
+  max-width: var(--max-width-lg);
+}
+.single-articles {
+  border: 1px solid var(--lash-light-stroke);
+  border-radius: var(--rounded-md);
+  overflow: hidden;
+}
 @supports not (display: grid) {
   .lash-articles {
     display: flex;

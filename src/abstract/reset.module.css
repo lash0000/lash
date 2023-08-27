@@ -24,6 +24,9 @@
 .dark-mode .my-art {
   border: 1px solid var(--lash-dark-stroke);
 }
+.dark-mode .lash-intro {
+  color: var(--lash-light-text);
+}
 
 /* article page */
 
