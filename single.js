@@ -29,6 +29,7 @@ function convert(xmlDoc) {
     var lash1stTag = items[i].getElementsByTagName("first-tag")[0].innerHTML;
     var lash2ndTag = items[i].getElementsByTagName("second-tag")[0].innerHTML;
     var minRead = items[i].getElementsByTagName("min-read")[0].innerHTML;
+    var posted = items[i].getElementsByTagName("posted")[0].innerHTML;
 
     htmlString += `
         <aside class="single-art">
@@ -39,7 +40,7 @@ function convert(xmlDoc) {
             <div class="single-art-header">
               <div><a href="${articleLink}">${headline}</a></div>
               <span>${lashSm}</span>
-              <figcaption>Posted about month ago.</figcaption>
+              <figcaption>${posted}</figcaption>
             </div>
             <div class="single-art-tags">
               <div>${minRead}</div>
