@@ -1,8 +1,8 @@
 /**
  *  2023 - DEV
  *  Developer: Kenneth Obsequio
- *  GitHub: https://github.com/eyelash128
- *  License: GNU v3.0
+ *  GitHub: https://github.com/lash0000
+ *  License: GPL v3.0
  *
  */
 

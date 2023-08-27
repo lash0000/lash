@@ -52,17 +52,19 @@
   padding-left: 1.257em;
   padding-top: 0.975em;
 }
-.art-tags div {
+.art-tags div,
+.single-art-tags div {
   margin-right: 0.657em;
 }
 .art-header {
   padding: 1.257em;
 }
-.art-header div:hover {
-  text-decoration: underline;
-}
 .art-header span,
 .art-header figcaption {
+  color: var(--lash-high-light);
+}
+.single-art-header span,
+.single-art figcaption {
   color: var(--lash-high-light);
 }
 .art-header div,
@@ -79,11 +81,13 @@
 .single-art-parent {
   margin: 0 auto;
   max-width: var(--max-width-lg);
+}
+.single-articles {
   display: grid;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1em;
 }
-.single-articles {
+.single-art {
   border: 1px solid var(--lash-light-stroke);
   border-radius: var(--rounded-md);
   overflow: hidden;
@@ -100,9 +104,16 @@
   padding: 0px 1.257em 1.257em 1.257em;
 }
 .single-art-tags {
-  border-top: 1px solid var(--lash-high-stroke);
+  border-top: 1px solid var(--lash-light-stroke);
   display: flex;
   padding: 1em;
+}
+.art-header div:hover,
+.single-art-header div:hover {
+  text-decoration: underline;
+}
+.single-art-tags div {
+  font-size: 0.857em;
 }
 @supports not (display: grid) {
   .lash-articles {
@@ -149,6 +160,12 @@
   .art-header figcaption {
     font-size: 0.657em;
   }
+  .single-art-parent {
+    padding: 1.675em;
+  }
+  .single-articles {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }
 @media (min-width: 461px) and (max-width: 640px) {
   .my-art {
@@ -184,6 +201,12 @@
   .art-header figcaption {
     font-size: 0.757em;
   }
+  .single-art-parent {
+    padding: 1.675em;
+  }
+  .single-articles {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }
 @media (min-width: 641px) and (max-width: 711px) {
   .art-header div,
@@ -206,7 +229,7 @@
     object-fit: cover;
   }
 }
-@media (min-width: 712px) and (max-width: 800px) {
+@media (min-width: 712px) and (max-width: 1020px) {
   .art-header div,
   .art-header span {
     font-size: 1em;
@@ -225,5 +248,11 @@
     width: 100%;
     height: 160px;
     object-fit: cover;
+  }
+  .single-art-parent {
+    padding: 1.675em;
+  }
+  .single-articles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
