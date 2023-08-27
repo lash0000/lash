@@ -52,6 +52,11 @@
     height: auto;
     object-fit: cover;
 }
+.lash-article-body ul {
+    list-style-type: disc;
+    margin-top: 0.657em;
+    margin-left: 1em;
+}
 @media (min-width: 320px) and (max-width: 640px) {
     .article-container {
         padding: 1.657em;
