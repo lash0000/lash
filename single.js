@@ -5,7 +5,6 @@ async function singleData() {
 
   var parser = new DOMParser();
   var xmlDoc1 = parser.parseFromString(data1, "text/xml");
-  var xmlDoc2 = parser.parseFromString(data2, "text/xml");
 
   return [xmlDoc1, xmlDoc2];
 }

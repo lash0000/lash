@@ -91,7 +91,7 @@ async function displayData() {
 
   console.log("By the essence and power of GNU License.");
   console.log("Here's the source code btw.");
-  console.log("https://github.com/eyelash128/lash");
+  console.log("https://github.com/lash0000/lash");
 }
 
 displayData();
