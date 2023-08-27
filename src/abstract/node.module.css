@@ -73,15 +73,36 @@
 .art-header figcaption {
   font-size: 0.857em;
 }
+
 /* ART SINGLE PAGE */
+
 .single-art-parent {
   margin: 0 auto;
   max-width: var(--max-width-lg);
+  display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1em;
 }
 .single-articles {
   border: 1px solid var(--lash-light-stroke);
   border-radius: var(--rounded-md);
   overflow: hidden;
+}
+.single-art picture {
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+}
+.single-art img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.single-art-header {
+  padding: 0px 1.257em 1.257em 1.257em;
+}
+.single-art-tags {
+  border-top: 1px solid var(--lash-high-stroke);
+  display: flex;
+  padding: 1em;
 }
 @supports not (display: grid) {
   .lash-articles {
