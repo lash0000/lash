@@ -1,3 +1,11 @@
+/**
+ *  2023 - DEV
+ *  Developer: Kenneth Obsequio
+ *  GitHub: https://github.com/lash0000
+ *  License: GPL v3.0
+ *
+ */
+
 async function singleData() {
   var singleData = await fetch("data/articles/headline.xml").then(
     (response) => response.text()

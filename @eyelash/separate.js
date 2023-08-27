@@ -1,4 +1,10 @@
-//toggle on scroll next
+/**
+ *  2023 - DEV
+ *  Developer: Kenneth Obsequio
+ *  GitHub: https://github.com/lash0000
+ *  License: GPL v3.0
+ *
+ */
 
 const scrollTopButton = document.getElementById("scrollTop");
 
