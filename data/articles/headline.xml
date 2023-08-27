@@ -1,6 +1,32 @@
 <article>
     <tables>
         <headline>
+            My only reason to learn coding.
+        </headline>
+        <art-link>
+            /@eyelash/story/reason-code.html
+        </art-link>
+        <small-detail>
+            Such a journey before I get there.
+        </small-detail>
+        <first-tag>
+            Life
+        </first-tag>
+        <small-img>
+            <img src="https://i.pinimg.com/564x/70/b6/59/70b659feffbc29754cb5f550468f054a.jpg" />
+        </small-img>
+        <second-tag>
+            Individual
+        </second-tag>
+        <min-read>
+            2 min read
+        </min-read>
+        <posted>
+            Published: Aug 27, 2023
+        </posted>
+    </tables>
+    <tables>
+        <headline>
             Dark Side of Open Source (such a reaction)
         </headline>
         <art-link>
