@@ -1,6 +1,33 @@
 <article>
     <tables>
         <headline>
+            Design forever?
+        </headline>
+        <art-link>
+            /@eyelash/story/decision.html
+        </art-link>
+        <small-detail>
+            My life without developer experience is it possible?
+        </small-detail>
+        <small-img>
+            <img src="https://i.pinimg.com/564x/0e/00/31/0e003187b7cd3914ae20147aa7c953b0.jpg" 
+            onerror="this.src='https://lashmono.space/async/prod/lash-media.webp'" />
+        </small-img>
+        <first-tag>
+            Game-Changing
+        </first-tag>
+        <second-tag>
+            Individual
+        </second-tag>
+        <min-read>
+            7 mins read
+        </min-read>
+        <posted>
+            Published: Aug 31, 2023
+        </posted>
+    </tables>
+    <tables>
+        <headline>
             My only reason to learn coding.
         </headline>
         <art-link>
@@ -13,7 +40,8 @@
             Life
         </first-tag>
         <small-img>
-            <img src="https://i.pinimg.com/564x/70/b6/59/70b659feffbc29754cb5f550468f054a.jpg" />
+            <img src="https://i.pinimg.com/564x/70/b6/59/70b659feffbc29754cb5f550468f054a.jpg" 
+            onerror="this.src='https://lashmono.space/async/prod/lash-media.webp'" />
         </small-img>
         <second-tag>
             Individual
@@ -39,7 +67,8 @@
             Open-Source
         </first-tag>
         <small-img>
-            <img src="./async/prod/bb01fc0f8ae0caa60df6db73d7942464.webp" />
+            <img src="./async/prod/bb01fc0f8ae0caa60df6db73d7942464.webp" 
+            onerror="this.src='https://lashmono.space/async/prod/lash-media.webp'"/>
         </small-img>
         <second-tag>
             Reaction
