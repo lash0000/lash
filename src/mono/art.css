@@ -8,6 +8,7 @@
 
 @import url("../abstract/reset.module.css");
 @import url("../abstract/header.module.css");
+@import url("../abstract/embed.module.css");
 @import url("./modules/article.module.css");
 @import url("../abstract/node.module.css");
 @import url("./modules/end.module.css");
