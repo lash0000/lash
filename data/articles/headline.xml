@@ -1,6 +1,33 @@
 <article>
     <tables>
         <headline>
+            Yoriichi's Golden Rule
+        </headline>
+        <art-link>
+            /@eyelash/story/rule.html
+        </art-link>
+        <small-detail>
+            From fictional bringing up to your own mysteries. 
+        </small-detail>
+        <small-img>
+            <img src="https://i.pinimg.com/originals/51/e2/e1/51e2e127509fb9b85112e4dbf70c3092.gif" 
+            onerror="this.src='https://lashmono.space/async/prod/lash-media.webp'" />
+        </small-img>
+        <first-tag>
+            Mysteries
+        </first-tag>
+        <second-tag>
+            Life
+        </second-tag>
+        <min-read>
+            2 mins read
+        </min-read>
+        <posted>
+            Published: Sep 1, 2023
+        </posted>
+    </tables>
+    <tables>
+        <headline>
             Design forever?
         </headline>
         <art-link>
@@ -74,7 +101,7 @@
             Reaction
         </second-tag>
         <min-read>
-            2 min read
+            2 mins read
         </min-read>
         <posted>
             Published: Aug 27, 2023
