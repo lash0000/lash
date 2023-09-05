@@ -1,4 +1,4 @@
-![structure_nigga](/async/prod/structure.webp)
+![structure_nigga](/async/prod/structure.png)
 
 ```
 file-based html and XML?
