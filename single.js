@@ -38,9 +38,7 @@ function convert(xmlDoc) {
           </picture>
           <figure class="single-detail">
             <div class="single-art-header">
-            <div hx-boost="true">
-                <a href="${articleLink}">${headline}</a>
-              </div>
+              <div><a href="${articleLink}">${headline}</a></div>
               <span>${lashSm}</span>
               <figcaption>${posted}</figcaption>
             </div>
