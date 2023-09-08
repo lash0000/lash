@@ -40,7 +40,9 @@ function convert(xmlDoc) {
         <aside class="my-art">
             <figure class="f-col">
                 <div class="art-header">
-                    <div><a href="${articleLink}">${headline}</a></div>
+                    <div hx-boost="true">
+                      <a href="${articleLink}">${headline}</a>
+                    </div>
                     <span>${lashSm}</span>
                     <figcaption>${posted}</figcaption>
                 </div>
