@@ -1,6 +1,33 @@
 <article>
     <tables>
         <headline>
+            Future Developer's Nightmare
+        </headline>
+        <art-link>
+            /@eyelash/story/nightmare.html
+        </art-link>
+        <small-detail>
+            Break those disbeliefs that surrounds you.
+        </small-detail>
+        <small-img>
+            <img src="https://i.pinimg.com/564x/01/a2/59/01a259a243d4399b7bd34b86817c18d2.jpg" 
+            onerror="this.src='https://lashmono.space/async/prod/lash-media.webp'" />
+        </small-img>
+        <first-tag>
+            Programming
+        </first-tag>
+        <second-tag>
+            Web Dev
+        </second-tag>
+        <min-read>
+            5 mins read
+        </min-read>
+        <posted>
+            Published: Sep 9, 2023
+        </posted>
+    </tables>
+    <tables>
+        <headline>
             Yoriichi's Golden Rule
         </headline>
         <art-link>
