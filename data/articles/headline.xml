@@ -1,6 +1,33 @@
 <article>
     <tables>
         <headline>
+            Socialise Issue (Intro or Extro)
+        </headline>
+        <art-link>
+            /@eyelash/story/problem.html
+        </art-link>
+        <small-detail>
+            Who the heck believing that tech makes us lonely?
+        </small-detail>
+        <small-img>
+            <img src="https://i.pinimg.com/originals/38/13/27/38132722b8e8fe41361d55630aa7687a.gif" 
+            onerror="this.src='https://lashmono.space/async/prod/lash-media.webp'" />
+        </small-img>
+        <first-tag>
+            Problem
+        </first-tag>
+        <second-tag>
+            Myself
+        </second-tag>
+        <min-read>
+            5 mins read
+        </min-read>
+        <posted>
+            Published: Sep 13, 2023
+        </posted>
+    </tables>
+    <tables>
+        <headline>
             Future Developer's Nightmare
         </headline>
         <art-link>
