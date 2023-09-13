@@ -51,7 +51,7 @@
 
 .dark-mode .single-art,
 .dark-mode .single-art-tags {
-  border: 1px solid var(--lash-dark-stroke);
+  border-top: 1px solid var(--lash-dark-stroke);
 }
 .dark-mode .single-art-header span,
 .dark-mode .single-art-header figcaption {
