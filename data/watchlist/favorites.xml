@@ -9,6 +9,14 @@
     </anime>
     <anime>
         <anime-link>
+            https://aniwave.to/watch/new-game.w17o/ep-1
+        </anime-link>
+        <anime-picture>
+            <img src="./async/prod/new_game.webp" alt="New Game" />
+        </anime-picture>
+    </anime>
+    <anime>
+        <anime-link>
             https://aniwave.to/watch/classroom-of-the-elite.07o9/ep-1
         </anime-link>
         <anime-picture>
