@@ -24,7 +24,7 @@ function convert(xmlDoc) {
   let htmlString = "";
   var items = xmlDoc.getElementsByTagName("tables");
   var watchlist = xmlDoc.getElementsByTagName("anime");
-  var headlineLimit = 5; //limit for homepage
+  var headlineLimit = 3; //limit for homepage
 
   for (let i = 0; i < items.length && i < headlineLimit; i++) {
     var headline = items[i].getElementsByTagName("headline")[0].innerHTML;
