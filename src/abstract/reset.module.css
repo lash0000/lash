@@ -49,7 +49,9 @@
 
 /* single layout page */
 
-.dark-mode .single-art,
+.dark-mode .single-art {
+  border: 1px solid var(--lash-dark-stroke);
+}
 .dark-mode .single-art-tags {
   border-top: 1px solid var(--lash-dark-stroke);
 }
