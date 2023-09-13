@@ -10,3 +10,9 @@
 #GIPHY-embed iframe {
     width: 100%;
 }
+
+.copied-text {
+    color: var(--lash-copied-text-light);
+    position: relative;
+    margin-bottom: 0.657em;
+}
