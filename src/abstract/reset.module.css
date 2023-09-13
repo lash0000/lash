@@ -59,6 +59,9 @@
 .dark-mode .single-art-header figcaption {
   color: var(--lash-high-dark);
 }
+.dark-mode .copied-text {
+  color: var(--lash-high-dark);
+}
 
 /** end of color scheme **/
 
