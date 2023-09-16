@@ -18,6 +18,7 @@
     margin: 0 auto;
 }
 .lash-intro {
+    width: 620px;
     word-break: normal;
     color: var(--lash-dark-text);
 }
@@ -35,6 +36,8 @@
     font-size: 2em;
     letter-spacing: 0.02em;
 }
+
+/* from search design */
 
 @media (min-width: 320px) and (max-width: 640px) {
     .lash-intro {
