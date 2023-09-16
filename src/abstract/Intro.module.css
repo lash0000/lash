@@ -12,12 +12,12 @@
 .lash-intro-parent {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     max-width: var(--max-width-lg);
     flex-direction: column;
     margin: 0 auto;
 }
 .lash-intro {
-    width: 620px;
     word-break: normal;
     color: var(--lash-dark-text);
 }
