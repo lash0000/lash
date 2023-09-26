@@ -20,7 +20,8 @@ footer {
 .lash-custom a {
     color: var(--lash-high-light);
 }
-.lash-nav a {
+.lash-nav a:first-child,
+.lash-nav a:nth-child(2) {
     margin-right: 0.657em;
 }
 @media (min-width: 320px) and (max-width: 480px) {
