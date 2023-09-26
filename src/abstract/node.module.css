@@ -117,8 +117,8 @@
   display: flex;
   padding: 1em;
 }
-.art-header div:hover,
-.single-art-header div:hover {
+.art-header a:hover,
+.single-art-header a:hover {
   text-decoration: underline;
 }
 .single-art-tags div {
