@@ -14,7 +14,7 @@
     align-items: flex-start;
     justify-content: space-between;
     max-width: var(--max-width-lg);
-    flex-direction: column;
+    flex-direction: row;
     margin: 0 auto;
 }
 .lash-intro {
@@ -50,4 +50,32 @@
         font-size: 0.957em;
         margin-bottom: 0.25em;
     }
+}
+
+/* SEARCH INPUT */
+
+.lash-search {
+    position: relative;
+}
+.lash-search input {
+    background: var(--lash-search-light);
+    border: 1px solid var(--lash-light-stroke);
+    padding: 0.657em;
+    border-radius: var(--rounded-md);
+}
+.lash-search input[disabled] {
+    cursor: pointer;
+}
+.keymap {
+    position: absolute;
+    top: 50%;
+    left: 85.667%;
+    background: var(--lash-light-text);
+    color: var(--lash-dark-text);
+    font-weight: bold;
+    padding: 0.257em 0.5em;
+    border-radius: var(--rounded-sm);
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--lash-light-stroke);
+    pointer-events: none;
 }
