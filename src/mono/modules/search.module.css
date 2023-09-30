@@ -1,0 +1,50 @@
+/* SEARCH INPUT */
+
+.lash-search {
+    position: relative;
+}
+.lash-search input {
+    background: var(--lash-search-light);
+    border: 1px solid var(--lash-light-stroke);
+    padding: 0.657em;
+    border-radius: var(--rounded-md);
+}
+.lash-search input[disabled] {
+    cursor: pointer;
+}
+.keymap {
+    position: absolute;
+    top: 50%;
+    left: 85.667%;
+    background: var(--lash-light-text);
+    color: var(--lash-dark-text);
+    font-weight: bold;
+    padding: 0.257em 0.5em;
+    border-radius: var(--rounded-sm);
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--lash-light-stroke);
+    pointer-events: none;
+}
+
+/* SEARCH INPUT
+
+.lash-search-modal {
+    background: #000;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.lash-search-parent {
+    background: var(--lash-light-text);
+    padding: 1.475em;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: var(--rounded-md);
+}
+
+*/

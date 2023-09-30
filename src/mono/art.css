@@ -12,7 +12,6 @@
 @import url("./modules/article.module.css");
 @import url("../abstract/node.module.css");
 @import url("./modules/end.module.css");
-@import url("./modules/search.module.css");
 
 .scrollbtn {
     position: fixed;
