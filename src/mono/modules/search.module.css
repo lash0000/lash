@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 .keymap {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 85.667%;
     background: var(--lash-light-text);
@@ -26,25 +26,58 @@
     pointer-events: none;
 }
 
-/* SEARCH INPUT
+/* SEARCH INPUT */
 
 .lash-search-modal {
-    background: #000;
+    background: #0009; /* opacity trick from tailwind */
     height: 100vh;
     width: 100vw;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
 }
 .lash-search-parent {
     background: var(--lash-light-text);
     padding: 1.475em;
-    width: 50%;
+    width: 45em;
     position: absolute;
-    top: 50%;
+    top: 25.667%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: var(--rounded-md);
 }
-
-*/
+.modal-search {
+    width: 100%;
+    position: relative;
+}
+.modal-search input {
+    width: 100%;
+    background: var(--lash-search-light);
+    border: 1px solid var(--lash-light-stroke);
+    padding: 0.657em;
+    border-radius: var(--rounded-md);
+}
+.modal-keymap {
+    position: absolute;
+    top: 50%;
+    left: 93.447%;
+    background: var(--lash-light-text);
+    color: var(--lash-dark-text);
+    font-weight: bold;
+    padding: 0.257em 0.5em;
+    border-radius: var(--rounded-sm);
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--lash-light-stroke);
+    pointer-events: none;
+    text-transform: uppercase;
+}
+.recent-search {
+    display: block;
+    margin: 0.257em auto;
+    font-weight: bold;
+    font-size: 1.245em;
+}
+.keyword {
+    background: #f2f2f2;
+    padding: 0.657em;
+}
