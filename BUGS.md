@@ -3,7 +3,9 @@ This page is typically a portfolio + my blog page.
 
 The reason that I wanted to make this as standard file-based HTML pages instead
 of working with dynamical operations like using web-framework in order to settle
-these things not very much to be hard-headed to me.
+these things not very much to be hard-headed to me is that I want to save my life
+to explore backwards to the things that surely what the Internet rightfully deserves
+I know this is totally awkward but I can't help to figure what does it mean.
 
 Personally, I want to justify some disbeliefs that I used to it up to now
 it would never be the same by mistakes that I frequently learned.

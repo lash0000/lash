@@ -6,15 +6,6 @@
  *
  */
 
-//Modal Search IO
-
-// const bodyTag = document.body;
-// const myModal = document.getElementById("eyelash-modal");
-
-// function showModal() {
-//   myModal.style.display = "block";
-// }
-
 async function singleData() {
   var singleData = await fetch("data/articles/headline.xml").then(
     (response) => response.text()

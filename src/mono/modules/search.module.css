@@ -15,7 +15,7 @@
 .keymap {
     position: absolute;
     top: 50%;
-    left: 85.667%;
+    left: 85%;
     background: var(--lash-light-text);
     color: var(--lash-dark-text);
     font-weight: bold;
