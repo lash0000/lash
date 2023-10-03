@@ -49,12 +49,8 @@
       rel="stylesheet"
     />
     <script src="../_poly.js" type="module"></script>
-    <script type="module" src="./single.js"></script>
-    <script
-      src="https://unpkg.com/htmx.org@1.9.5"
-      integrity="sha384-xcuj3WpfgjlKF+FXhSQFQ0ZNr39ln+hwjN3npfM9VBnUskLolQAcN80McRIVOPuO"
-      crossorigin="anonymous"
-    ></script>
+    <script type="module" src="./filter.js"></script>
+
     <link rel="stylesheet" type="text/css" href="../src/css/styles.css" />
     <title>single mode</title>
   </head>
@@ -73,70 +69,30 @@
           <figcaption>
             <a href="../">Back</a>
           </figcaption>
-          <span>single layout</span>
-          <figcaption>read whatever.</figcaption>
+          <span id="searchQueryText">...</span>
+          <figcaption>Hypermedia based still relevant.</figcaption>
         </figure>
-        <div class="lash-search" id="open-modal">
-          <input
-            type="text" 
-            id="searchInput" 
-            placeholder="quick search..."
-            disabled 
-          />
-          <span class="keymap">Ctrl+S</span>
-        </div>
       </aside>
     </section>
-    <aside class="single-art-parent">
-      <main class="single-articles" id="single-art">
-        <!-- xml cutie -->
-      </main>
-    </aside>
-    <!-- this is for my modal ^^ -->
-    <aside class="lash-search-modal" id="eyelash-modal">
-      <section class="lash-search-parent">
-        <figure class="modal-search">
-          <!-- I added the name attr for URLsearchparam -->
-          <form id="searchForm" action="keyword.html" method="GET">
-              <input 
-                  type="text" 
-                  placeholder="quick search (up to 80 characters)" 
-                  maxlength="80" 
-                  autocomplete="off" 
-                  id="searchInput"
-                  name="query"
-              />
-              <span class="modal-keymap">Enter</span>
-          </form>        
-        </figure>
-        <span class="recent-search">Recent Searches (keyword)</span>
-        <section id="keyword-nodes">
-          <button class="keyword">
-            keep me bump...
-          </button>
-        </section>
-        <div id="lash-watermark">
-          Press ESC to close!
-        </div>
-      </section>
+    <aside class="single-art-parent" id="searchResult">
+        <main class="single-articles" id="searchArt">
+          <!-- search filter to xml is quite hell -->
+        </main>
     </aside>
     <script>
-        //Submit a form to redirects upon different page.
-        document.getElementById("searchInput").addEventListener("keydown", function (event) {
-          if (event.key === "Enter") {
-            document.getElementById("searchForm").submit();
-            event.preventDefault();
-          }
-        });
-
-        function performSearch(event) {
-          event.preventDefault();
-          const searchQuery = document.getElementById('searchInput').value;
-          window.location.href = `keyword.html?query=${searchQuery}`;
+        // Function to get the searchQuery parameter from the URL
+        function getSearchQuery() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get("query");
         }
+        const searchQuerySpan = document.getElementById("searchQueryText");
+        const searchQuery = getSearchQuery();
 
-        const urlParams = new URLSearchParams(window.location.search);
-        const searchQuery = urlParams.get("query"); 
+        if (searchQuery) {
+            searchQuerySpan.textContent = searchQuery;
+        } else {
+            searchQuerySpan.textContent = "None.";
+        }
     </script>
   </body>
 </html>
