@@ -28,8 +28,17 @@ I have so many reason why did I stop using TypeScript / JavaScript language for
 big projects due to many reasons that I don't want to consider. Theoretically, 
 it's based on my experience as well.
 
-LibreJS is purely disagree in WebAssembly for the humility to protect our
-identity while surfing in our favorite browser (Firefox-based).
+So as my decision I formally abandoned one of my supposedly a biggest project written
+in that kind of programming language mentioned this is my Rigma (such a news portal btw) 
+I had some biggest mistake that I ever experience is that I didn't met the simple DRY 
+principle however, if you look at the whole program is totally mess in other words you 
+can say that you really don't like it as the way that we really need to 
+follow some of the rules as a programmer.
+
+By the way, let's get back to topic so LibreJS is purely disagree with WebAssembly 
+for the sake of their philosophy to prohibit to run JavaScript in their machine
+not a big deal to be exact but it's up to you which may ever you like as I said
+my page is purely prone to any kinds of web attacks I can't take it.
 
 Author: Kenneth Obsequio
 ```
