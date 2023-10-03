@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 .keymap {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 85.667%;
     background: var(--lash-light-text);
@@ -23,12 +23,12 @@
     border-radius: var(--rounded-sm);
     transform: translate(-50%, -50%);
     border: 1px solid var(--lash-light-stroke);
-    pointer-events: none;
 }
 
 /* SEARCH INPUT */
 
 .lash-search-modal {
+    display: none;
     background: #0009; /* opacity trick from tailwind */
     height: 100vh;
     width: 100vw;
@@ -41,7 +41,7 @@
     padding: 1.475em;
     width: 45em;
     position: absolute;
-    top: 25.667%;
+    top: 30.667%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: var(--rounded-md);
@@ -60,7 +60,7 @@
 .modal-keymap {
     position: absolute;
     top: 50%;
-    left: 93.447%;
+    left: 94.447%;
     background: var(--lash-light-text);
     color: var(--lash-dark-text);
     font-weight: bold;
@@ -70,6 +70,7 @@
     border: 1px solid var(--lash-light-stroke);
     pointer-events: none;
     text-transform: uppercase;
+    font-size: 0.675em;
 }
 .recent-search {
     display: block;
@@ -77,7 +78,23 @@
     font-weight: bold;
     font-size: 1.245em;
 }
+#keyword-nodes {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
 .keyword {
-    background: #f2f2f2;
-    padding: 0.657em;
+    font-size: 1.157em;
+    color: var(--lash-high-light);
+    background: transparent;
+    appearance: none;
+    border: none;
+    padding: 0;
+    margin-bottom: 0.257em;
+}
+#lash-watermark {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    color: var(--lash-dark-text);
 }

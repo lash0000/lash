@@ -76,10 +76,15 @@
           <span>single layout</span>
           <figcaption>read whatever.</figcaption>
         </figure>
-        <!-- <figure class="lash-search">
-          <input type="text" id="searchInput" placeholder="quick search..." disabled />
+        <div class="lash-search" onclick="showModal()">
+          <input
+            type="text" 
+            id="searchInput" 
+            placeholder="quick search..." 
+            disabled 
+          />
           <span class="keymap">Ctrl+S</span>
-        </figure> -->
+        </div>
       </aside>
     </section>
     <aside class="single-art-parent">
@@ -88,8 +93,7 @@
       </main>
     </aside>
     <!-- this is for my modal ^^ -->
-    <!--
-    <aside class="lash-search-modal">
+    <aside class="lash-search-modal" id="eyelash-modal">
       <section class="lash-search-parent">
         <figure class="modal-search">
           <input type="text" 
@@ -102,12 +106,21 @@
         </figure>
         <span class="recent-search">Recent Searches (keyword)</span>
         <section id="keyword-nodes">
-          <div class="keyword">
+          <button class="keyword">
             keep me bump...
-          </div>
+          </button>
+          <button class="keyword">
+            keep me bump...
+          </button>
+          <button class="keyword">
+            keep me bump...
+          </button>
         </section>
+        <div id="lash-watermark">
+          Powered by HTMX (simple but shit)
+        </div>
       </section>
     </aside>
-    -->
+
   </body>
 </html>
