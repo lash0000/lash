@@ -66,3 +66,36 @@ async function displayData() {
 }
 
 displayData();
+
+//Search Filtering
+
+var myModal = document.getElementById("eyelash-modal");
+var openModal = document.getElementById("open-modal");
+var bodyDisable = document.body;
+
+function showModal() {
+  myModal.style.display = "block";
+  bodyDisable.style.overflow = "hidden";
+}
+function hideModal() {
+  myModal.style.display = "none";
+  bodyDisable.style.overflow = "";  
+}
+openModal.addEventListener("click", showModal);
+
+//Close the modal for mobile.
+window.addEventListener("click", function (event) {
+  if (event.target === myModal) {
+    hideModal();
+  }   
+});
+
+//Open and Close the modal via keyboard
+window.addEventListener("keydown", function (event) {
+  if (event.ctrlKey && event.key === "s") {
+      showModal();
+      event.preventDefault(); 
+  } else if (event.key === "Escape") {
+    hideModal();
+  }
+});
