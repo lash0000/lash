@@ -1,72 +1,133 @@
 /* SEARCH INPUT */
 
 .lash-search {
-    position: relative;
+  position: relative;
 }
 .lash-search input {
-    background: var(--lash-search-light);
-    border: 1px solid var(--lash-light-stroke);
-    padding: 0.657em;
-    border-radius: var(--rounded-md);
+  background: var(--lash-search-light);
+  border: 1px solid var(--lash-light-stroke);
+  padding: 0.657em;
+  border-radius: var(--rounded-md);
 }
 .lash-search input[disabled] {
-    cursor: pointer;
+  cursor: pointer;
 }
 .keymap {
-    position: absolute;
-    top: 50%;
-    left: 85%;
-    background: var(--lash-light-text);
-    color: var(--lash-dark-text);
-    font-weight: bold;
-    padding: 0.257em 0.5em;
-    border-radius: var(--rounded-sm);
-    transform: translate(-50%, -50%);
-    border: 1px solid var(--lash-light-stroke);
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  background: var(--lash-light-text);
+  color: var(--lash-dark-text);
+  font-weight: bold;
+  padding: 0.257em 0.5em;
+  border-radius: var(--rounded-sm);
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--lash-light-stroke);
+  cursor: pointer;
 }
 .keymap:hover {
-    background: #1f1b1b;
-    color: white;
-    border: none;
+  background: #1f1b1b;
+  color: white;
+  border: none;
 }
 
 /* SEARCH INPUT */
 
 .lash-search-modal {
-    display: none;
-    background: #0009; /* opacity trick from tailwind */
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    left: 0;
-    top: 0;
+  display: none;
+  background: #0009; /* opacity trick from tailwind */
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 .lash-search-parent {
-    background: var(--lash-light-text);
-    padding: 1.475em;
-    width: 45em;
-    position: absolute;
-    top: 30.667%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: var(--rounded-md);
+  background: var(--lash-light-text);
+  padding: 1.475em;
+  width: 45em;
+  position: fixed;
+  top: 30.667%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: var(--rounded-md);
 }
 .modal-search {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 .modal-search input {
-    width: 100%;
-    background: var(--lash-search-light);
-    border: 1px solid var(--lash-light-stroke);
-    padding: 0.657em;
-    border-radius: var(--rounded-md);
+  width: 100%;
+  background: var(--lash-search-light);
+  border: 1px solid var(--lash-light-stroke);
+  padding: 0.657em;
+  border-radius: var(--rounded-md);
 }
 .modal-keymap {
+  position: absolute;
+  top: 50%;
+  left: 94.447%;
+  background: var(--lash-light-text);
+  color: var(--lash-dark-text);
+  font-weight: bold;
+  padding: 0.257em 0.5em;
+  border-radius: var(--rounded-sm);
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--lash-light-stroke);
+  pointer-events: none;
+  text-transform: uppercase;
+  font-size: 0.675em;
+}
+.recent-search {
+  display: block;
+  margin: 0.257em auto;
+  font-weight: bold;
+  font-size: 1.245em;
+}
+#keyword-nodes {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.keyword {
+  font-size: 1.157em;
+  color: var(--lash-high-light);
+  background: transparent;
+  appearance: none;
+  border: none;
+  padding: 0;
+  margin-bottom: 0.257em;
+}
+#lash-watermark {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  color: var(--lash-dark-text);
+}
+/* ERROR RESULT */
+.error-result img {
+  height: 320px;
+  object-fit: cover;
+  border-radius: var(--rounded-md);
+}
+.error-result picture {
+  line-height: 3em;
+  font-size: 1.47em;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .lash-search input {
+    width: 80px;
+    padding: 0.657em;
+    border-radius: var(--rounded-md);
+  }
+  .lash-search input[disabled] {
+    cursor: pointer;
+  }
+  .keymap {
     position: absolute;
     top: 50%;
-    left: 94.447%;
+    left: 50%;
     background: var(--lash-light-text);
     color: var(--lash-dark-text);
     font-weight: bold;
@@ -74,43 +135,69 @@
     border-radius: var(--rounded-sm);
     transform: translate(-50%, -50%);
     border: 1px solid var(--lash-light-stroke);
-    pointer-events: none;
-    text-transform: uppercase;
-    font-size: 0.675em;
-}
-.recent-search {
-    display: block;
-    margin: 0.257em auto;
-    font-weight: bold;
-    font-size: 1.245em;
-}
-#keyword-nodes {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-}
-.keyword {
-    font-size: 1.157em;
-    color: var(--lash-high-light);
-    background: transparent;
-    appearance: none;
+    cursor: pointer;
+  }
+  .keymap:hover {
+    background: #1f1b1b;
+    color: white;
     border: none;
-    padding: 0;
-    margin-bottom: 0.257em;
-}
-#lash-watermark {
-    display: flex;
-    justify-content: right;
+  }
+  /* modal */
+  .lash-search-parent {
+    padding: 1.475em;
     width: 100%;
-    color: var(--lash-dark-text);
+    position: fixed;
+    bottom: 0;
+    top: unset;
+    left: unset;
+    transform: unset;
+    border-radius: unset;
+  }
+  .modal-keymap {
+    display: none;
+  }
+  .modal-search input {
+    padding: 0.457em;
+  }
+  .recent-search {
+    margin: 0.457em auto;
+    font-size: 0.857em;
+  }
+  .keyword {
+    font-size: 0.757em;
+    margin-bottom: 0.257em;
+  }
+  #lash-watermark {
+    font-size: 0.757em;
+  }
 }
-
-.error-result img {
-    height: 320px;
-    object-fit: cover;
-    border-radius: var(--rounded-md);
-}
-.error-result picture {
-    line-height: 3em;
-    font-size: 1.47em;
+@media (min-width: 501px) and (max-width: 840px) {
+  /* modal */
+  .lash-search-parent {
+    padding: 1.475em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    top: unset;
+    left: unset;
+    transform: unset;
+    border-radius: unset;
+  }
+  .modal-keymap {
+    display: none;
+  }
+  .modal-search input {
+    padding: 0.657em;
+  }
+  .recent-search {
+    margin: 0.457em auto;
+    font-size: 0.857em;
+  }
+  .keyword {
+    font-size: 0.857em;
+    margin-bottom: 0.257em;
+  }
+  #lash-watermark {
+    font-size: 0.857em;
+  }
 }
