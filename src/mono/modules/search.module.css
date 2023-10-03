@@ -23,6 +23,12 @@
     border-radius: var(--rounded-sm);
     transform: translate(-50%, -50%);
     border: 1px solid var(--lash-light-stroke);
+    cursor: pointer;
+}
+.keymap:hover {
+    background: #1f1b1b;
+    color: white;
+    border: none;
 }
 
 /* SEARCH INPUT */
@@ -97,4 +103,14 @@
     justify-content: right;
     width: 100%;
     color: var(--lash-dark-text);
+}
+
+.error-result img {
+    height: 320px;
+    object-fit: cover;
+    border-radius: var(--rounded-md);
+}
+.error-result picture {
+    line-height: 3em;
+    font-size: 1.47em;
 }
