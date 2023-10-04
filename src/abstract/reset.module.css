@@ -63,6 +63,30 @@
   color: var(--lash-high-dark);
 }
 
+/* search filtering */
+
+.dark-mode .lash-search input,
+.dark-mode .keymap {
+  background: var(--lash-dark-bg);
+  border: 1px solid var(--lash-dark-stroke);
+  color: var(--lash-light-text);
+}
+
+.dark-mode .lash-search-modal {
+  background: rgba(158, 26, 66, 0.6); /* opacity trick from tailwind */
+}
+.dark-mode .lash-search-parent {
+  background: var(--lash-dark-text);
+}
+.dark-mode .modal-search input {
+  background: var(--lash-dark-bg);
+  border: 1px solid var(--lash-dark-stroke);
+  color: var(--lash-light-text);
+}
+.dark-mode #lash-watermark {
+  color: var(--lash-light-text);
+}
+
 /** end of color scheme **/
 
 :root {
