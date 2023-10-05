@@ -87,4 +87,12 @@
             <img src="./async/prod/kobayashii.webp" alt="Kobayashi-san Chi no Maid Dragon" />
         </anime-picture>
     </anime>
+    <anime>
+        <anime-link>
+            https://aniwave.to/watch/havent-you-heard-im-sakamoto.vvwv/ep-1
+        </anime-link>
+        <anime-picture>
+            <img src="./async/prod/sakamoto.webp" alt="Haven't You Heard? I'm Sakamoto" />
+        </anime-picture>
+    </anime>
 </watchlist>
