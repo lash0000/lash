@@ -18,6 +18,8 @@ function filterResult(query) {
 
       for (let i = 0; i < items.length; i++) {
         const headline = items[i].getElementsByTagName("headline")[0].innerHTML;
+        const firstTag = items[i].getElementsByTagName("first-tag")[0].innerHTML;
+        const secondTag = items[i].getElementsByTagName("second-tag")[0].innerHTML;
 
         if (headline.toLowerCase().includes(query.toLowerCase())) {
           searchResults.push(items[i]);

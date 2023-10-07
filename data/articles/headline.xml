@@ -1,6 +1,33 @@
 <article>
     <tables>
         <headline>
+            My Programming Setup
+        </headline>
+        <art-link>
+            /@eyelash/story/corepack.html
+        </art-link>
+        <small-detail>
+            Sharing only my productivity looks like.
+        </small-detail>
+        <small-img>
+            <img src="https://i.pinimg.com/564x/24/e7/d2/24e7d21c874284da50fe1c92e2c397d7.jpg"
+            onerror="this.src='https://lashmono.space/async/prod/lash-media.webp'" />
+        </small-img>
+        <first-tag>
+            Tech-Career
+        </first-tag>
+        <second-tag>
+            DevSetup
+        </second-tag>
+        <min-read>
+            3 mins read
+        </min-read>
+        <posted>
+            Published: Oct 7, 2023
+        </posted>
+    </tables>
+    <tables>
+        <headline>
             Bootcamp or Self-Taught
         </headline>
         <art-link>
