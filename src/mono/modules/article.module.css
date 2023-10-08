@@ -36,7 +36,7 @@
 }
 .lash-article-body picture img,
 .lash-article-body video {
-    border-radius: var(--rounded-lg);
+    border-radius: var(--rounded-md);
     border: 1px solid var(--lash-light-stroke);
     overflow: hidden;
 }
