@@ -23,6 +23,10 @@ function filterResult(query) {
 
         if (headline.toLowerCase().includes(query.toLowerCase())) {
           searchResults.push(items[i]);
+        } else if (firstTag.toLowerCase().includes(query.toLowerCase())) {
+          searchResults.push(items[i]);
+        } else if (secondTag.toLowerCase().includes(query.toLowerCase())) {
+          searchResults.push(items[i]);
         }
       }
 
