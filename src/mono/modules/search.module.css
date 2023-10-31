@@ -15,7 +15,7 @@
 .keymap {
   position: absolute;
   top: 50%;
-  left: 85%;
+  left: 83.5%; /* chrome + msedge + safari sucks */
   background: var(--lash-light-text);
   color: var(--lash-dark-text);
   font-weight: bold;

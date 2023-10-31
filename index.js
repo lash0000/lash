@@ -61,18 +61,18 @@ function convert(xmlDoc) {
       `;
   }
 
-  for (let n = 0; n < watchlist.length; n++) {
-    var watchlistImg = watchlist[n].getElementsByTagName("anime-picture")[0].innerHTML;
-    var watchlistLink = watchlist[n].getElementsByTagName("anime-link")[0].innerHTML;
+  // for (let n = 0; n < watchlist.length; n++) {
+  //   var watchlistImg = watchlist[n].getElementsByTagName("anime-picture")[0].innerHTML;
+  //   var watchlistLink = watchlist[n].getElementsByTagName("anime-link")[0].innerHTML;
 
-    htmlString += `
-      <a href="${watchlistLink}" target="_blank" rel="noopener noreferrer">
-        <picture>
-          ${watchlistImg}
-        </picture>
-      </a>
-    `;
-  }
+  //   htmlString += `
+  //     <a href="${watchlistLink}" target="_blank" rel="noopener noreferrer">
+  //       <picture>
+  //         ${watchlistImg}
+  //       </picture>
+  //     </a>
+  //   `;
+  // }
 
   return htmlString;
 }

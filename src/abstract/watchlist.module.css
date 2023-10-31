@@ -23,7 +23,7 @@
     font-weight: bold;
     font-size: 1.257em;
 }
-.watchlist-pics {
+/* .watchlist-pics {
     display: grid;
 	grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 1em;
@@ -67,4 +67,4 @@
     .watchlist-pics img {
         height: 250px;
     }
-}
+} */
