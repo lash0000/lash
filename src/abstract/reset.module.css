@@ -87,6 +87,10 @@
   color: var(--lash-light-text);
 }
 
+/* Glider supports dark mode */
+
+
+
 /** end of color scheme **/
 
 :root {

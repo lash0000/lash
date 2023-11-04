@@ -1,40 +1,19 @@
-<watchlist>
-    <anime>
-        <anime-link>
-            https://aniwave.to/watch/lycoris-recoil.w117o/ep-1
-        </anime-link>
-        <anime-picture>
-            <img src="./async/prod/lycoris_recoil.webp" alt="Lycoris Recoil" />
-        </anime-picture>
-    </anime>
-    <anime>
-        <anime-link>
-            https://aniwave.to/watch/new-game.w17o/ep-1
-        </anime-link>
+<anime>
         <anime-picture>
             <img src="./async/prod/new_game.webp" alt="New Game" />
         </anime-picture>
     </anime>
     <anime>
-        <anime-link>
-            https://aniwave.to/watch/classroom-of-the-elite.07o9/ep-1
-        </anime-link>
         <anime-picture>
             <img src="./async/prod/cote.webp" alt="Classroom of the Elite" />
         </anime-picture>
     </anime>
     <anime>
-        <anime-link>
-            https://www.bilibili.tv/en/play/1048837
-        </anime-link>
         <anime-picture>
             <img src="./async/prod/spyxfamily.webp" alt="Spy x Family" />
         </anime-picture>
     </anime>
     <anime>
-        <anime-link>
-            https://aniwave.to/watch/demon-slayer-kimetsu-no-yaiba-swordsmith-village-arc.3r7p6/ep-1
-        </anime-link>
         <anime-picture>
             <img src="./async/prod/kimetsu-swordsmith.webp" alt="Kimetsu no yaiba" />
         </anime-picture>
@@ -48,51 +27,37 @@
         </anime-picture>
     </anime>
     <anime>
-        <anime-link>
-            https://aniwave.to/watch/akame-ga-kill.908/ep-1
-        </anime-link>
         <anime-picture>
             <img src="./async/prod/akame.webp" alt="Akame ga kill" />
         </anime-picture>
     </anime>
     <anime>
-        <anime-link>
-            https://aniwave.to/watch/kakegurui.79vj/ep-1
-        </anime-link>
         <anime-picture>
             <img src="./async/prod/kakegurui.webp" alt="Kakegurui" />
         </anime-picture>
     </anime>
     <anime>
-        <anime-link>
-            https://aniwave.to/watch/sword-art-online.5y9/ep-1
-        </anime-link>
         <anime-picture>
             <img src="./async/prod/sao.webp" alt="SAO-S01" />
         </anime-picture>
     </anime>
     <anime>
-        <anime-link>
-            https://aniwave.to/watch/if-its-for-my-daughter-id-even-defeat-a-demon-lord.orm4/ep-1
-        </anime-link>
         <anime-picture>
             <img src="./async/prod/demonlord.webp" alt="If it's for my daughter i'd even defeat a demon lord" />
         </anime-picture>
     </anime>
     <anime>
-        <anime-link>
-            https://aniwave.to/watch/miss-kobayashis-dragon-maid.0y8k/ep-1
-        </anime-link>
         <anime-picture>
             <img src="./async/prod/kobayashii.webp" alt="Kobayashi-san Chi no Maid Dragon" />
         </anime-picture>
     </anime>
     <anime>
-        <anime-link>
-            https://aniwave.to/watch/havent-you-heard-im-sakamoto.vvwv/ep-1
-        </anime-link>
         <anime-picture>
             <img src="./async/prod/sakamoto.webp" alt="Haven't You Heard? I'm Sakamoto" />
         </anime-picture>
     </anime>
-</watchlist>
+
+
+https://i.pinimg.com/736x/d1/da/4a/d1da4a1d41c78efd96602578cdc8c302.jpg
+https://animeuknews.net/app/uploads/2020/10/new-game-001.jpg
+https://i.pinimg.com/564x/bf/65/2d/bf652dd2ddf8ca1c73ca04c79fff15ce.jpg
