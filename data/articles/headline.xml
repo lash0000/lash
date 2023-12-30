@@ -1,4 +1,31 @@
 <article>
+  <tables>
+        <headline>
+            It's more fun for being just a hopper.
+        </headline>
+        <art-link>
+            /@eyelash/story/hyprland.html
+        </art-link>
+        <small-detail>
+            What time is it?
+        </small-detail>
+        <small-img>
+            <img src="https://i.pinimg.com/564x/e8/ee/fc/e8eefce0860d97b021739d3b7209ea21.jpg"
+            onerror="this.src='https://lashmono.space/async/prod/lash-media.webp'" />
+        </small-img>
+        <first-tag>
+          Arch Linux
+        </first-tag>
+        <second-tag>
+          Wayland
+        </second-tag>
+        <min-read>
+            1 mins read
+        </min-read>
+        <posted>
+            Published: Dec 30, 2023
+        </posted>
+    </tables>
     <tables>
         <headline>
             My Programming Setup
