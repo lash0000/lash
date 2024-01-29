@@ -1,6 +1,6 @@
 ## Known bugs (little)
 
-In firefox mobile especially with firefox mobile alternatives, my outfit font doesn't really show properly.
+- For some cases,in firefox mobile especially with other firefox mobile alternatives, my `outfit` font doesn't really show properly.
 
 ## Other Stories
 
