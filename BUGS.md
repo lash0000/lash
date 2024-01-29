@@ -1,3 +1,9 @@
+## Known bugs (little)
+
+In firefox mobile especially with firefox mobile alternatives, my outfit font doesn't really show properly.
+
+## Other Stories
+
 ```
 This page is typically a portfolio + my blog page.
 
