@@ -40,6 +40,14 @@
     border: 1px solid var(--lash-light-stroke);
     overflow: hidden;
 }
+.red-article {
+    background: #ed333b;
+    padding: 1em;
+    color: #fff;
+    border-radius: var(--rounded-md);
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
 .media-info {
     display: block;
     text-align: center;
