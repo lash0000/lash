@@ -89,7 +89,18 @@
 
 /* Glider supports dark mode */
 
-
+.dark-mode .glide__slide {
+  border: 1px solid var(--lash-dark-stroke);
+}
+.dark-mode .glide__paragraph {
+  color: var(--lash-high-dark);
+}
+.dark-mode .glide__bullet {
+  background-color: var(--lash-dark-stroke);
+}
+.dark-mode .glide__bullet--active {
+  background-color: var(--lash-high-dark);
+}
 
 /** end of color scheme **/
 
